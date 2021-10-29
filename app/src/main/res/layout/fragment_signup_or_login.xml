@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/signupInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_primary"
+            android:gravity="center"
+            android:text="@string/signup_instruction"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_primary"
+            app:layout_constraintBottom_toTopOf="@id/signupButton"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/signupButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/margin_primary"
+            android:background="@drawable/button_primary"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="@string/signup"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_primary"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/loginInstruction"
+            app:layout_constraintTop_toBottomOf="@id/signupInstruction" />
+
+        <TextView
+            android:id="@+id/loginInstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_primary"
+            android:gravity="center"
+            android:text="@string/loginInstruction"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_primary"
+            app:layout_constraintBottom_toTopOf="@id/signinButton"
+            app:layout_constraintTop_toBottomOf="@id/signupButton" />
+
+
+        <TextView
+            android:id="@+id/signinButton"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_size"
+            android:layout_margin="@dimen/margin_primary"
+            android:background="@drawable/button_primary"
+            android:enabled="true"
+            android:gravity="center"
+            android:text="@string/signin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_primary"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/loginInstruction" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

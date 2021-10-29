@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BohubrihiECommerce</string>
+    <string name="proceed">Proceed</string>
+    <string name="welcome_tour_one">"Welcome to Ecommerece !! All your need is now in hand "</string>
+    <string name="welcome_tour_two">"Joining us is simple. Just tap on proceed below"</string>
+    <string name="signup_instruction">New in Bohubrihi? Sign up below!</string>
+    <string name="signup">Signup</string>
+    <string name="loginInstruction">Already have an ID ? Please Signin</string>
+    <string name="signin">Signin</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="continue_to_proceed">Continue</string>
+    <string name="please_enter_the_information_to">Please enter the informations to complete signup</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="products">Products</string>
+    <string name="product_details">Product Details</string>
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+    <string name="purchase">Purchase</string>
+    <string name="payment">Payment</string>
+    <string name="purchase_successful">Purchase successful</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="please_enter_email_and">Please enter email and password to login</string>
+    <string name="update">Update</string>
+    <string name="address_line_one">Address Line 1</string>
+    <string name="address_line_two">Address Line 2</string>
+    <string name="city">City</string>
+    <string name="phone">Phone Number</string>
+    <string name="post_code">Post Code</string>
+    <string name="more">More</string>
+    <string name="logout">Logout</string>
+    <string name="signout">Signout</string>
+
+</resources>
